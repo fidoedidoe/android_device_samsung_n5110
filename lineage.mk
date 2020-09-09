@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := n5110
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n5110/full_n5110.mk)
